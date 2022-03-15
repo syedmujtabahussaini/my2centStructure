@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Left from "./Left";
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <>
       <div class="flex ">
         <Left />
-        <div class="item w-9/12 h-32 border-2 border-black fixed bg-orange-500 right-0 ">
+        <div class="item w-9/12 h-[168px] border-2 border-black fixed bg-orange-500 right-0 ">
           search bar
         </div>
 
@@ -17,7 +18,7 @@ function App() {
         </div>
       </div>
 
-      <div class="h-20   border-2 border-black bg-orange-500 ">Footer</div>
+      <Footer />
     </>
   );
 }
