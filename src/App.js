@@ -6,7 +6,7 @@ function App() {
     <>
       <div class="flex ">
         <Left />
-        <div class="item w-9/12 h-[168px] border-2 border-black fixed bg-orange-500 right-0 ">
+        {/* <div class="item w-9/12 h-[168px] border-2 border-black fixed bg-blue-400 right-0 ">
           search bar
         </div>
 
@@ -15,7 +15,7 @@ function App() {
         </div>
         <div class="item w-3/12 h-[973px] border-2 border-black bg-zinc-500 mt-[127px]">
           right section
-        </div>
+        </div> */}
       </div>
 
       <Footer />

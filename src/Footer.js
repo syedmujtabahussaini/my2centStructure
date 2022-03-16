@@ -1,17 +1,31 @@
 function Footer() {
   return (
-    <div class="flex h-[108px] border-2 border-black  bg-blue-700">
-      <div className=" flex w-1/12 justify-center self-center ">
-        <img class="h-[60px] align-middle" src="new-logo.webp" alt="logo" />
+    <div class="flex flex-col lg:flex-row   sm:h-[248px] lg:h-[108px]   bg-blue-700 p-5">
+      <div class="flex  justify-center lg:justify-start lg:pl-[80px]">
+        <img class="h-[60px]" src="new-logo.webp" alt="logo" />
       </div>
-      <div class="flex w-10/12 justify-center self-center text-sm text-white">
-        <a href="#">Communication&nbsp;&nbsp;&nbsp; </a>
-        <a href="#">Advertisement&nbsp;&nbsp;&nbsp; </a>
-        <a href="#">Your Money&nbsp;&nbsp;&nbsp; </a>
-        <a href="#">Bonues&nbsp;&nbsp;&nbsp; </a>
-        <a href="#">Terms of Use&nbsp;&nbsp;&nbsp; </a>
-        <a href="#">Privacy Policy&nbsp;&nbsp;&nbsp; </a>
-        <a href="#">FAQ </a>
+      <div className="  h-[116px] mx-auto my-auto lg:h-[16px]  mt-[24px] text-sm text-white justify-between align-middle">
+        <a href="#" class="hover:text-blue-400">
+          Communication&nbsp;&nbsp;&nbsp;{" "}
+        </a>
+        <a href="#" class="hover:text-blue-400">
+          Advertisement&nbsp;&nbsp;&nbsp;{" "}
+        </a>
+        <a href="#" class="hover:text-blue-400">
+          Your Money&nbsp;&nbsp;&nbsp;{" "}
+        </a>
+        <a href="#" class="hover:text-blue-400">
+          Bonues&nbsp;&nbsp;&nbsp;{" "}
+        </a>
+        <a href="#" class="hover:text-blue-400">
+          Terms of Use&nbsp;&nbsp;&nbsp;{" "}
+        </a>
+        <a href="#" class="hover:text-blue-400">
+          Privacy Policy&nbsp;&nbsp;&nbsp;{" "}
+        </a>
+        <a href="#" class="hover:text-blue-400">
+          FAQ{" "}
+        </a>
       </div>
     </div>
   );
