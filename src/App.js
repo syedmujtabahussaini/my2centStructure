@@ -9,7 +9,6 @@ function App() {
         {/* <div class="item w-9/12 h-[168px] border-2 border-black fixed bg-blue-400 right-0 ">
           search bar
         </div>
-
         <div class="item w-6/12 h-[973px] border-2 border-black bg-zinc-500 mt-[127px]">
           middle section
         </div>
@@ -17,7 +16,6 @@ function App() {
           right section
         </div> */}
       </div>
-
       <Footer />
     </>
   );

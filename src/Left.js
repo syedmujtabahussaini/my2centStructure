@@ -1,7 +1,13 @@
+import LeftButtonPanel from "./LeftButtonPanel";
+import LeftIconPanel from "./LeftIconPanel";
+import LeftInnerPanel from "./LeftInnerPanel";
+
 function Left() {
   return (
-    <div class="item w-3/12  h-[1100px] border-2 border-black ">
-      left panel main
+    <div class="item min-w-3/12  border-r-[1px] border-gray-300">
+      <LeftIconPanel />
+      <LeftInnerPanel />
+      <LeftButtonPanel />
     </div>
   );
 }
